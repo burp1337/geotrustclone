@@ -1,0 +1,20 @@
+.success-msg {
+  color: green;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.error-msg {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f9f9f9;
+  text-decoration: none;
+}

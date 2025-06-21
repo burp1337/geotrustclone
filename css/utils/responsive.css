@@ -1,0 +1,72 @@
+@media (max-width: 768px) {
+  header .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .trust-features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .trust-item {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+    .comparison-table,
+  .comparison-table thead,
+  .comparison-table tbody,
+  .comparison-table th,
+  .comparison-table td,
+  .comparison-table tr {
+    display: block;
+  }
+
+  .comparison-table thead {
+    display: none;
+  }
+
+  .comparison-table tr {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .comparison-table td {
+    text-align: left;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  .comparison-table td:last-child {
+    border-bottom: none;
+  }
+
+  .comparison-table td:first-child {
+    font-weight: bold;
+    background-color: #e9f3ff;
+  }
+
+}

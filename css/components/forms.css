@@ -1,0 +1,41 @@
+.contact-form-grid input,
+.contact-form-grid select,
+.contact-form-grid textarea {
+  border-radius: 8px;     
+  padding: 10px 12px;     
+  border: 1px solid #ccc; 
+  font-size: 1rem;        
+  width: 100%;          
+}
+
+.contact-form-grid select {
+  justify-self: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+.contact-form-grid button {
+  grid-column: span 2;
+  justify-self: center;
+  cursor: pointer;
+}
+
+.centered-select {
+  grid-column: span 2;
+  justify-self: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+.form-agreement {
+  grid-column: span 2;
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+  text-align: center;
+}
+
+.form-agreement a {
+  color: #0073cf;
+  text-decoration: underline;
+}

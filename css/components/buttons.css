@@ -1,0 +1,23 @@
+.btn {
+  background-color: #0073cf;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid transparent;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #0073cf;
+  border: 2px solid #0073cf;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}

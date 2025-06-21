@@ -1,0 +1,20 @@
+.contact-form {
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}

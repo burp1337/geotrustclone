@@ -1,0 +1,40 @@
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.comparison-table th:first-child,
+.comparison-table td:first-child {
+  width: 20%;
+  text-align: left;
+}
+
+.comparison-table th:not(:first-child),
+.comparison-table td:not(:first-child) {
+  width: 26.66%;
+}
+
+.comparison-table th,
+.comparison-table td {
+  border: 1px solid #ddd;
+  padding: 16px;
+  text-align: center;
+}
+
+.comparison-table thead th {
+  background-color: #0073cf;
+  color: white;
+  font-size: 1rem;
+}
+
+.comparison-table tbody td:first-child {
+  font-weight: bold;
+  background-color: #f2f8ff;
+  text-align: left;
+}
+
+.comparison-table a.btn {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
